@@ -17,13 +17,13 @@ import (
     "sigs.k8s.io/controller-runtime/pkg/manager"
     "sigs.k8s.io/controller-runtime/pkg/reconcile"
 
-    "github.com/solo-io/autopilot/pkg/config"
-    "github.com/solo-io/autopilot/pkg/ezkube"
+    "gitlab.dds-sysu.tech/691729768/autopilot/pkg/config"
+    "gitlab.dds-sysu.tech/691729768/autopilot/pkg/ezkube"
 {{- if needs_metrics }}
-    "github.com/solo-io/autopilot/pkg/metrics"
+    "gitlab.dds-sysu.tech/691729768/autopilot/pkg/metrics"
 {{- end}}
-    "github.com/solo-io/autopilot/pkg/scheduler"
-    "github.com/solo-io/autopilot/pkg/utils"
+    "gitlab.dds-sysu.tech/691729768/autopilot/pkg/scheduler"
+    "gitlab.dds-sysu.tech/691729768/autopilot/pkg/utils"
 
     {{$.Version}} "{{$.TypesImportPath}}"
 

@@ -37,7 +37,7 @@ steps:
     env:
       - 'GO111MODULE=on'
       - 'TAGGED_VERSION=$TAG_NAME'
-      - 'PROJECT_ROOT=github.com/solo-io/autopilot'
+      - 'PROJECT_ROOT=gitlab.dds-sysu.tech/691729768/autopilot'
       - 'GOPATH=/workspace/gopath'
       - 'GCLOUD_PROJECT_ID=$PROJECT_ID'
       - 'KUBECONFIG=/workspace/kube-e2e'

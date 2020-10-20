@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/solo-io/autopilot/pkg/defaults"
+	"gitlab.dds-sysu.tech/691729768/autopilot/pkg/defaults"
 
 	"github.com/mitchellh/go-homedir"
 	"github.com/pkg/errors"

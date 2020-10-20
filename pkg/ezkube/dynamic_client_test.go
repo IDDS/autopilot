@@ -5,8 +5,8 @@ import (
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
-	. "github.com/solo-io/autopilot/pkg/ezkube"
-	"github.com/solo-io/autopilot/test"
+	. "gitlab.dds-sysu.tech/691729768/autopilot/pkg/ezkube"
+	"gitlab.dds-sysu.tech/691729768/autopilot/test"
 	v1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

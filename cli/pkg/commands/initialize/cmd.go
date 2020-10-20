@@ -8,14 +8,14 @@ import (
 	"path/filepath"
 	"strings"
 
-	autopilotversion "github.com/solo-io/autopilot/pkg/version"
+	autopilotversion "gitlab.dds-sysu.tech/691729768/autopilot/pkg/version"
 
 	"github.com/sirupsen/logrus"
-	v1 "github.com/solo-io/autopilot/api/v1"
-	"github.com/solo-io/autopilot/codegen/model"
-	"github.com/solo-io/autopilot/codegen/util"
-	"github.com/solo-io/autopilot/pkg/config"
-	"github.com/solo-io/autopilot/pkg/defaults"
+	v1 "gitlab.dds-sysu.tech/691729768/autopilot/api/v1"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/model"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/util"
+	"gitlab.dds-sysu.tech/691729768/autopilot/pkg/config"
+	"gitlab.dds-sysu.tech/691729768/autopilot/pkg/defaults"
 	"github.com/spf13/cobra"
 )
 
@@ -149,7 +149,7 @@ func initialGoGet(dir string) error {
 	if autopilotversion.Version != autopilotversion.DevVersion {
 		versionSuffix = "@" + autopilotversion.Version
 	}
-	cmd := exec.Command("go", "get", "-v", "github.com/solo-io/autopilot"+versionSuffix)
+	cmd := exec.Command("go", "get", "-v", "gitlab.dds-sysu.tech/691729768/autopilot"+versionSuffix)
 	cmd.Env = append(cmd.Env, os.Environ()...)
 	cmd.Env = append(cmd.Env, "GO111MODULE=on")
 	cmd.Dir = dir
@@ -192,7 +192,7 @@ replace sigs.k8s.io/controller-tools => sigs.k8s.io/controller-tools v0.2.2-0.20
 require (
 	github.com/go-logr/logr v0.1.0
 	github.com/golang/protobuf v1.3.2
-	github.com/solo-io/autopilot v0.0.0-20191113003254-3821310e6e8c
+	gitlab.dds-sysu.tech/691729768/autopilot v0.0.0-20191113003254-3821310e6e8c
 	go.tmthrgd.dev/gomodpriv v0.0.0-20191024122841-38d17a72f03c // indirect
 	istio.io/client-go v0.0.0-20191111192453-21751e6cf0fe
 	k8s.io/apimachinery v0.0.0

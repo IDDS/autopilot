@@ -6,7 +6,8 @@
 
 OUTDIR:=_output
 
-SOURCES := $(shell find . -name "*.go" | grep -v test.go | grep -v '\.\#*')
+SOURCES := $(shell find . -name "*.go" | grep -v test.go)
+# SOURCES := $(shell find . -name "*.go" | grep -v test.go | grep -v '\.\#*') last grep remove all path with comma?
 RELEASE := "true"
 ifeq ($(TAGGED_VERSION),)
 	# TAGGED_VERSION := $(shell git describe --tags)
@@ -16,7 +17,7 @@ ifeq ($(TAGGED_VERSION),)
 endif
 VERSION ?= $(shell echo $(TAGGED_VERSION) | cut -c 2-)
 
-LDFLAGS := "-X github.com/solo-io/autopilot/pkg/version.Version=$(VERSION)"
+LDFLAGS := "-X gitlab.dds-sysu.tech/691729768/autopilot/pkg/version.Version=$(VERSION)"
 GCFLAGS := all="-N -l"
 
 # Passed by cloudbuild
@@ -26,6 +27,17 @@ BUILD_ID := $(BUILD_ID)
 TEST_IMAGE_TAG := test-$(BUILD_ID)
 TEST_ASSET_DIR := $(ROOTDIR)/_test
 GCR_REPO_PREFIX := gcr.io/$(GCLOUD_PROJECT_ID)
+
+#----------------------------------------------------------------------------------
+# Check Var
+#----------------------------------------------------------------------------------
+check-var: 
+	echo 'SOURCES: $(SOURCES)' 
+	echo 'TAGGED_VERSION: $(TAGGED_VERSION)' 
+	echo 'VERSION: $(VERSION)' 
+	echo 'LDFLAGS: $(LDFLAGS)' 
+	echo 'GCFLAGS: $(GCFLAGS)' 
+	echo 'GCLOUD_PROJECT_ID: $(GCLOUD_PROJECT_ID)'
 
 #----------------------------------------------------------------------------------
 # Build
@@ -72,6 +84,10 @@ build-cli: ap-linux-amd64 ap-darwin-amd64 ap-windows-amd64
 .PHONY: install-cli
 install-cli:
 	go build -o ${GOPATH}/bin/ap $(CLI_DIR)/cmd/main.go
+
+.PHONY: install-cli-1
+install-cli-1:
+	go build -o ~/.autopilot/bin/ap $(CLI_DIR)/cmd/main.go
 
 
 #----------------------------------------------------------------------------------

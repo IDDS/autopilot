@@ -8,9 +8,9 @@ import (
 
 	"github.com/golang/protobuf/ptypes"
 	"github.com/golang/protobuf/ptypes/wrappers"
-	v1 "github.com/solo-io/autopilot/api/v1"
-	"github.com/solo-io/autopilot/codegen/util"
-	"github.com/solo-io/autopilot/pkg/defaults"
+	v1 "gitlab.dds-sysu.tech/691729768/autopilot/api/v1"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/util"
+	"gitlab.dds-sysu.tech/691729768/autopilot/pkg/defaults"
 )
 
 // the default config represents a boilerplate config wired to be run with istio (installed to istio-system)

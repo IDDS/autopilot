@@ -1,6 +1,6 @@
 package model
 
-import v1 "github.com/solo-io/autopilot/api/v1"
+import v1 "gitlab.dds-sysu.tech/691729768/autopilot/api/v1"
 
 // Default queries are built-in to the system and will be generated for any user metrics client
 var DefaultQueries = []v1.MetricsQuery{

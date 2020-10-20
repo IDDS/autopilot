@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/solo-io/autopilot/codegen"
-	"github.com/solo-io/autopilot/codegen/util"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/util"
 	"github.com/spf13/cobra"
 )
 

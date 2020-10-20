@@ -3,7 +3,7 @@ package ezkube
 import (
 	"context"
 
-	"github.com/solo-io/autopilot/pkg/utils"
+	"gitlab.dds-sysu.tech/691729768/autopilot/pkg/utils"
 	"k8s.io/client-go/util/retry"
 
 	"k8s.io/apimachinery/pkg/api/errors"

@@ -6,7 +6,7 @@
 syntax = "proto3";
 package autopilot;
 
-option go_package = "github.com/solo-io/autopilot/api/v1";
+option go_package = "gitlab.dds-sysu.tech/691729768/autopilot/api/v1";
 
 // The AutopilotProject file is the root configuration file for the project itself.
 //

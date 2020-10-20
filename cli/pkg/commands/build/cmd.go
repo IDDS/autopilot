@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/solo-io/autopilot/codegen"
-	"github.com/solo-io/autopilot/codegen/util"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/util"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

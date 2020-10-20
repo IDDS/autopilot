@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/solo-io/autopilot/cli/pkg/commands"
+	"gitlab.dds-sysu.tech/691729768/autopilot/cli/pkg/commands"
 	"github.com/solo-io/go-utils/clidoc"
 )
 

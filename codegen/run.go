@@ -3,11 +3,11 @@ package codegen
 import (
 	"io/ioutil"
 
-	"github.com/solo-io/autopilot/codegen/model"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/model"
 
 	log "github.com/sirupsen/logrus"
-	"github.com/solo-io/autopilot/codegen/util"
-	"github.com/solo-io/autopilot/pkg/defaults"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/util"
+	"gitlab.dds-sysu.tech/691729768/autopilot/pkg/defaults"
 	"golang.org/x/tools/imports"
 
 	"os"

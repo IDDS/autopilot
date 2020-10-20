@@ -1,7 +1,7 @@
 package templates
 
 import (
-	"github.com/solo-io/autopilot/codegen/model"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/model"
 	"k8s.io/apimachinery/pkg/runtime"
 )
 

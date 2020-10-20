@@ -5,7 +5,7 @@ package main
 import (
 	"log"
 
-	"github.com/solo-io/autopilot/codegen"
+	"gitlab.dds-sysu.tech/691729768/autopilot/codegen"
 )
 
 func main() {
