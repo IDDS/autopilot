@@ -149,7 +149,8 @@ func initialGoGet(dir string) error {
 	if autopilotversion.Version != autopilotversion.DevVersion {
 		versionSuffix = "@" + autopilotversion.Version
 	}
-	cmd := exec.Command("go", "get", "-v", "gitlab.dds-sysu.tech/691729768/autopilot"+versionSuffix)
+	cmd := exec.Command("go", "get", "-v", "-insecure", 
+		"gitlab.dds-sysu.tech/691729768/autopilot"+versionSuffix)
 	cmd.Env = append(cmd.Env, os.Environ()...)
 	cmd.Env = append(cmd.Env, "GO111MODULE=on")
 	cmd.Dir = dir

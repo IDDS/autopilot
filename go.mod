@@ -3,22 +3,19 @@ module gitlab.dds-sysu.tech/691729768/autopilot
 go 1.13
 
 require (
-	github.com/Azure/go-autorest/autorest v0.9.2 // indirect
-	github.com/Azure/go-autorest/autorest/adal v0.8.0 // indirect
+	// github.com/Azure/go-autorest/autorest v0.9.2 // indirect
+	// github.com/Azure/go-autorest/autorest/adal v0.8.0 // indirect
 	github.com/fsnotify/fsnotify v1.4.9
 	github.com/gertd/go-pluralize v0.1.1
 	github.com/go-logr/logr v0.1.0
 	github.com/gobuffalo/envy v1.9.0 // indirect
+	github.com/gobuffalo/packd v1.0.0 // indirect
 	github.com/gobuffalo/packr v1.30.1
-	github.com/gobuffalo/packr/v2 v2.8.0 // indirect
 	github.com/gogo/protobuf v1.3.1
 	github.com/golang/protobuf v1.4.2
+	github.com/google/go-github v17.0.0+incompatible // indirect
 	github.com/gophercloud/gophercloud v0.2.0 // indirect
 	github.com/iancoleman/strcase v0.0.0-20190422225806-e506e3ef7365
-	github.com/ilackarms/protokit v0.1.0
-	github.com/karrick/godirwalk v1.16.1 // indirect
-	github.com/konsorten/go-windows-terminal-sequences v1.0.3 // indirect
-	github.com/markbates/pkger v0.17.1 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
 	github.com/onsi/ginkgo v1.12.1
 	github.com/onsi/gomega v1.10.1
@@ -33,19 +30,16 @@ require (
 	github.com/spf13/pflag v1.0.5
 	go.uber.org/zap v1.10.0
 	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897 // indirect
-	golang.org/x/sync v0.0.0-20201008141435-b3e1573b7520 // indirect
 	golang.org/x/sys v0.0.0-20201018230417-eeed37f84f13 // indirect
 	golang.org/x/tools v0.0.0-20200308013534-11ec41452d41
-	istio.io/api v0.0.0-20191109011807-2629c6ac1513
-	istio.io/client-go v0.0.0-20191104174404-7b65e62d85b0
+	gopkg.in/inf.v0 v0.9.1 // indirect
 	k8s.io/api v0.18.6
 	k8s.io/apiextensions-apiserver v0.18.6
 	k8s.io/apimachinery v0.18.6
-	k8s.io/client-go v11.0.0+incompatible
+	k8s.io/client-go v0.18.6
 	k8s.io/code-generator v0.18.0
 	k8s.io/gengo v0.0.0-20191010091904-7fa3014cb28f
 	k8s.io/utils v0.0.0-20200603063816-c1c6865ac451
-	knative.dev/pkg v0.0.0-20191111150521-6d806b998379
 	sigs.k8s.io/controller-runtime v0.6.2
 	sigs.k8s.io/testing_frameworks v0.1.1 // indirect
 	sigs.k8s.io/yaml v1.2.0
