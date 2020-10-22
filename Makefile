@@ -17,7 +17,7 @@ ifeq ($(TAGGED_VERSION),)
 endif
 VERSION ?= $(shell echo $(TAGGED_VERSION) | cut -c 2-)
 
-LDFLAGS := "-X gitlab.dds-sysu.tech/691729768/autopilot/pkg/version.Version=$(VERSION)"
+LDFLAGS := "-X github.com/dds-sysu/autopilot/pkg/version.Version=$(VERSION)"
 GCFLAGS := all="-N -l"
 
 # Passed by cloudbuild

@@ -4,7 +4,7 @@ weight: 1
 ---
 
 <h1 align="center">
-    <img src="https://gitlab.dds-sysu.tech/691729768/autopilot/blob/master/docs/content/img/logo.png?raw=true" alt="Autopilot" width="260" height="242">
+    <img src="https://github.com/dds-sysu/autopilot/blob/master/docs/content/img/logo.png?raw=true" alt="Autopilot" width="260" height="242">
   <br>
   The Service Mesh SDK
 </h1>
@@ -22,7 +22,7 @@ weight: 1
 &nbsp; [**Twitter**](https://twitter.com/soloio_inc)
 
 <center>
-<img src="https://gitlab.dds-sysu.tech/691729768/autopilot/blob/master/docs/content/img/autopilot-workflow.png?raw=true" alt="Autopilot">
+<img src="https://github.com/dds-sysu/autopilot/blob/master/docs/content/img/autopilot-workflow.png?raw=true" alt="Autopilot">
 </center>
 
 ### How does it work?

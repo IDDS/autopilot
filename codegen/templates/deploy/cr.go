@@ -1,7 +1,7 @@
 package deploy
 
 import (
-	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/model"
+	"github.com/dds-sysu/autopilot/codegen/model"
 	"k8s.io/apimachinery/pkg/apis/meta/v1/unstructured"
 	"k8s.io/apimachinery/pkg/runtime"
 )

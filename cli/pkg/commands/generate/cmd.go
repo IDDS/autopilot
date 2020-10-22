@@ -1,8 +1,8 @@
 package generate
 
 import (
-	"gitlab.dds-sysu.tech/691729768/autopilot/codegen"
-	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/util"
+	"github.com/dds-sysu/autopilot/codegen"
+	"github.com/dds-sysu/autopilot/codegen/util"
 	"github.com/spf13/cobra"
 )
 

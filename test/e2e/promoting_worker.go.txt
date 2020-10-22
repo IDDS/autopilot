@@ -3,16 +3,16 @@ package promoting
 import (
 	"context"
 	"github.com/pkg/errors"
-	"gitlab.dds-sysu.tech/691729768/autopilot/test/e2e/canary/pkg/parameters"
-	"gitlab.dds-sysu.tech/691729768/autopilot/test/e2e/canary/pkg/weights"
+	"github.com/dds-sysu/autopilot/test/e2e/canary/pkg/parameters"
+	"github.com/dds-sysu/autopilot/test/e2e/canary/pkg/weights"
 	"istio.io/client-go/pkg/apis/networking/v1alpha3"
 	appsv1 "k8s.io/api/apps/v1"
 	"k8s.io/utils/pointer"
 
 	"github.com/go-logr/logr"
-	"gitlab.dds-sysu.tech/691729768/autopilot/pkg/ezkube"
+	"github.com/dds-sysu/autopilot/pkg/ezkube"
 
-	v1 "gitlab.dds-sysu.tech/691729768/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
+	v1 "github.com/dds-sysu/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
 )
 
 // EDIT THIS FILE!  THIS IS SCAFFOLDING FOR YOU TO OWN!

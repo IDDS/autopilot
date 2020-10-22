@@ -2,7 +2,7 @@ package main
 
 import (
 	log "github.com/sirupsen/logrus"
-	"gitlab.dds-sysu.tech/691729768/autopilot/cli/pkg/commands"
+	"github.com/dds-sysu/autopilot/cli/pkg/commands"
 )
 
 func main() {

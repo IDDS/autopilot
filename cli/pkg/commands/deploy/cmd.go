@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"gitlab.dds-sysu.tech/691729768/autopilot/cli/pkg/utils"
-	"gitlab.dds-sysu.tech/691729768/autopilot/codegen"
-	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/util"
+	"github.com/dds-sysu/autopilot/cli/pkg/utils"
+	"github.com/dds-sysu/autopilot/codegen"
+	"github.com/dds-sysu/autopilot/codegen/util"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

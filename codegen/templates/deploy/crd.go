@@ -3,7 +3,7 @@ package deploy
 import (
 	"fmt"
 
-	"gitlab.dds-sysu.tech/691729768/autopilot/codegen/model"
+	"github.com/dds-sysu/autopilot/codegen/model"
 	apiextv1beta1 "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1beta1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

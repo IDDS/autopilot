@@ -1,4 +1,4 @@
-module gitlab.dds-sysu.tech/691729768/autopilot
+module github.com/dds-sysu/autopilot
 
 go 1.13
 
