@@ -2,13 +2,13 @@ package commands
 
 import (
 	log "github.com/sirupsen/logrus"
-	"github.com/dds-sysu/autopilot/cli/pkg/commands/build"
-	"github.com/dds-sysu/autopilot/cli/pkg/commands/deploy"
-	"github.com/dds-sysu/autopilot/cli/pkg/commands/generate"
-	"github.com/dds-sysu/autopilot/cli/pkg/commands/initialize"
-	"github.com/dds-sysu/autopilot/cli/pkg/commands/logs"
-	"github.com/dds-sysu/autopilot/codegen/util"
-	"github.com/dds-sysu/autopilot/pkg/version"
+	"github.com/solo-io/autopilot/cli/pkg/commands/build"
+	"github.com/solo-io/autopilot/cli/pkg/commands/deploy"
+	"github.com/solo-io/autopilot/cli/pkg/commands/generate"
+	"github.com/solo-io/autopilot/cli/pkg/commands/initialize"
+	"github.com/solo-io/autopilot/cli/pkg/commands/logs"
+	"github.com/solo-io/autopilot/codegen/util"
+	"github.com/solo-io/autopilot/pkg/version"
 	"github.com/spf13/cobra"
 )
 

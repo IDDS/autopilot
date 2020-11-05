@@ -6,6 +6,10 @@ weight: 5
 
 An SDK for building Service Mesh Operators with ease
 
+### Synopsis
+
+An SDK for building Service Mesh Operators with ease
+
 ### Options
 
 ```

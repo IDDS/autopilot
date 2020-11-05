@@ -1,7 +1,7 @@
 package deploy
 
 import (
-	"github.com/dds-sysu/autopilot/codegen/model"
+	"github.com/solo-io/autopilot/codegen/model"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"

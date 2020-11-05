@@ -10,8 +10,8 @@ import (
 	"github.com/gertd/go-pluralize"
 	"github.com/iancoleman/strcase"
 	"github.com/pkg/errors"
-	v1 "github.com/dds-sysu/autopilot/api/v1"
-	"github.com/dds-sysu/autopilot/codegen/util"
+	v1 "github.com/solo-io/autopilot/api/v1"
+	"github.com/solo-io/autopilot/codegen/util"
 )
 
 // ProjectData is used for rendering templates and generating files
@@ -27,7 +27,7 @@ type ProjectData struct {
 	// internal implementation of phases
 	Phases []Phase `json:"phases"`
 
-	ProjectPackage string // e.g. "github.com/dds-sysu/autopilot/examples/promoter"
+	ProjectPackage string // e.g. "github.com/solo-io/autopilot/examples/promoter"
 
 	Group   string // e.g. "mesh.demos.io"
 	Version string // e.g. "v1"

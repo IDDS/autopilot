@@ -4,7 +4,7 @@ import (
 	"reflect"
 
 	"github.com/sirupsen/logrus"
-	v1 "github.com/dds-sysu/autopilot/api/v1"
+	v1 "github.com/solo-io/autopilot/api/v1"
 )
 
 type Parameter v1.Parameter
@@ -116,6 +116,6 @@ var (
 		PluralName:   "Metrics",
 		SingleName:   "Metric",
 		ImportPrefix: "metrics",
-		Package:      "github.com/dds-sysu/autopilot/pkg/metrics",
+		Package:      "github.com/solo-io/autopilot/pkg/metrics",
 	})
 )

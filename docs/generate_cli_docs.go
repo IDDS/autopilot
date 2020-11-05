@@ -7,7 +7,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/dds-sysu/autopilot/cli/pkg/commands"
+	"github.com/solo-io/autopilot/cli/pkg/commands"
 	"github.com/solo-io/go-utils/clidoc"
 )
 

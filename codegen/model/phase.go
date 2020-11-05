@@ -3,7 +3,7 @@ package model
 import (
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
-	v1 "github.com/dds-sysu/autopilot/api/v1"
+	v1 "github.com/solo-io/autopilot/api/v1"
 )
 
 // this is the internal representation of the Phases written by the user

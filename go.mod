@@ -1,48 +1,49 @@
-module github.com/dds-sysu/autopilot
+module github.com/solo-io/autopilot
 
 go 1.13
 
 require (
-	// github.com/Azure/go-autorest/autorest v0.9.2 // indirect
-	// github.com/Azure/go-autorest/autorest/adal v0.8.0 // indirect
-	github.com/fsnotify/fsnotify v1.4.9
+	github.com/Azure/go-autorest/autorest v0.9.2 // indirect
+	github.com/Azure/go-autorest/autorest/adal v0.8.0 // indirect
+	github.com/fsnotify/fsnotify v1.4.7
 	github.com/gertd/go-pluralize v0.1.1
 	github.com/go-logr/logr v0.1.0
-	github.com/gobuffalo/envy v1.9.0 // indirect
-	github.com/gobuffalo/packd v1.0.0 // indirect
+	github.com/gobuffalo/envy v1.7.1 // indirect
 	github.com/gobuffalo/packr v1.30.1
-	github.com/gogo/protobuf v1.3.1
-	github.com/golang/protobuf v1.4.2
-	github.com/google/go-github v17.0.0+incompatible // indirect
+	github.com/gogo/protobuf v1.3.0
+	github.com/golang/protobuf v1.3.2
+	github.com/google/gofuzz v1.0.0 // indirect
 	github.com/gophercloud/gophercloud v0.2.0 // indirect
 	github.com/iancoleman/strcase v0.0.0-20190422225806-e506e3ef7365
+	github.com/ilackarms/protokit v0.1.0
+	github.com/imdario/mergo v0.3.7 // indirect
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/onsi/ginkgo v1.12.1
-	github.com/onsi/gomega v1.10.1
-	github.com/pborman/uuid v1.2.1 // indirect
-	github.com/pkg/errors v0.9.1
-	github.com/prometheus/client_golang v1.2.1
-	github.com/prometheus/common v0.7.0
-	github.com/rogpeppe/go-internal v1.6.2
-	github.com/sirupsen/logrus v1.7.0
-	github.com/solo-io/go-utils v0.18.1
-	github.com/spf13/cobra v1.1.1
-	github.com/spf13/pflag v1.0.5
+	github.com/onsi/ginkgo v1.8.0
+	github.com/onsi/gomega v1.5.0
+	github.com/pkg/errors v0.8.1
+	github.com/prometheus/client_golang v1.0.0
+	github.com/prometheus/common v0.4.1
+	github.com/rogpeppe/go-internal v1.5.0
+	github.com/sirupsen/logrus v1.4.2
+	github.com/solo-io/go-utils v0.10.27-0.20191113170737-ff1373ac5ea6
+	github.com/spf13/cobra v0.0.5
+	github.com/spf13/pflag v1.0.3
+	go.uber.org/atomic v1.4.0 // indirect
 	go.uber.org/zap v1.10.0
-	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897 // indirect
-	golang.org/x/sys v0.0.0-20201018230417-eeed37f84f13 // indirect
-	golang.org/x/tools v0.0.0-20200308013534-11ec41452d41
-	gopkg.in/inf.v0 v0.9.1 // indirect
-	k8s.io/api v0.18.6
-	k8s.io/apiextensions-apiserver v0.18.6
-	k8s.io/apimachinery v0.18.6
-	k8s.io/client-go v0.18.6
-	k8s.io/code-generator v0.18.0
+	golang.org/x/tools v0.0.0-20191018212557-ed542cd5b28a
+	istio.io/api v0.0.0-20191109011807-2629c6ac1513
+	istio.io/client-go v0.0.0-20191104174404-7b65e62d85b0
+	k8s.io/api v0.0.0
+	k8s.io/apiextensions-apiserver v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v11.0.0+incompatible
+	k8s.io/code-generator v0.0.0
 	k8s.io/gengo v0.0.0-20191010091904-7fa3014cb28f
-	k8s.io/utils v0.0.0-20200603063816-c1c6865ac451
-	sigs.k8s.io/controller-runtime v0.6.2
-	sigs.k8s.io/testing_frameworks v0.1.1 // indirect
-	sigs.k8s.io/yaml v1.2.0
+	k8s.io/kube-openapi v0.0.0-20190918143330-0270cf2f1c1d // indirect
+	k8s.io/utils v0.0.0-20190506122338-8fab8cb257d5
+	knative.dev/pkg v0.0.0-20191111150521-6d806b998379
+	sigs.k8s.io/controller-runtime v0.3.0
+	sigs.k8s.io/yaml v1.1.0
 )
 
 // Pinned to kubernetes-1.14.1

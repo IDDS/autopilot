@@ -2,9 +2,9 @@ package deploy
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/dds-sysu/autopilot/codegen/model"
-	"github.com/dds-sysu/autopilot/codegen/util"
-	"github.com/dds-sysu/autopilot/pkg/defaults"
+	"github.com/solo-io/autopilot/codegen/model"
+	"github.com/solo-io/autopilot/codegen/util"
+	"github.com/solo-io/autopilot/pkg/defaults"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
