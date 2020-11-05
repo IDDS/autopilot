@@ -263,6 +263,6 @@ kubectl delete crd autoroutes.examples.io
 # Summary
 
 This guide provides a demonstration on how Autopilot can be used to automate Mesh features. For a more robust, real-world example,
-see the [Autopilot Canary Project](https://github.com/solo-io/autopilot/tree/master/test/e2e), which is used as an automated end-to-end test for Autopilot. 
+see the [Autopilot Canary Project](https://github.com/dds-sysu/autopilot/tree/master/test/e2e), which is used as an automated end-to-end test for Autopilot. 
 
-Please submit questions and feedback to [the solo.io slack channel](https://slack.solo.io/), or [open an issue on GitHub](https://github.com/solo-io/autopilot).
+Please submit questions and feedback to [the solo.io slack channel](https://slack.solo.io/), or [open an issue on GitHub](https://github.com/dds-sysu/autopilot).

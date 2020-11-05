@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
-	v1 "github.com/solo-io/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
-	scheduler "github.com/solo-io/autopilot/test/e2e/canary/pkg/scheduler"
+	v1 "github.com/dds-sysu/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
+	scheduler "github.com/dds-sysu/autopilot/test/e2e/canary/pkg/scheduler"
 
-	"github.com/solo-io/autopilot/pkg/run"
+	"github.com/dds-sysu/autopilot/pkg/run"
 	logf "sigs.k8s.io/controller-runtime/pkg/log"
 )
 

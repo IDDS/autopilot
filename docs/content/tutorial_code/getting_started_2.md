@@ -123,7 +123,7 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
-	"github.com/solo-io/autopilot/pkg/ezkube"
+	"github.com/dds-sysu/autopilot/pkg/ezkube"
 
 	v1 "autorouter.examples.io/pkg/apis/autoroutes/v1"
 )
@@ -153,7 +153,7 @@ import (
 	"context"
 
 	"github.com/go-logr/logr"
-	"github.com/solo-io/autopilot/pkg/ezkube"
+	"github.com/dds-sysu/autopilot/pkg/ezkube"
 
 	v1 "autorouter.examples.io/pkg/apis/autoroutes/v1"
 )
@@ -192,7 +192,7 @@ import (
 	corev1 "k8s.io/api/core/v1"
 
 	"github.com/go-logr/logr"
-	"github.com/solo-io/autopilot/pkg/ezkube"
+	"github.com/dds-sysu/autopilot/pkg/ezkube"
 
 	v1 "autorouter.examples.io/pkg/apis/autoroutes/v1"
 	appsv1 "k8s.io/api/apps/v1"
@@ -398,7 +398,7 @@ import (
 	"k8s.io/apimachinery/pkg/labels"
 
 	"github.com/go-logr/logr"
-	"github.com/solo-io/autopilot/pkg/ezkube"
+	"github.com/dds-sysu/autopilot/pkg/ezkube"
 	appsv1 "k8s.io/api/apps/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 

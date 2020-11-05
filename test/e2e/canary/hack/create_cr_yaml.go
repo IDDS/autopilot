@@ -9,9 +9,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"sigs.k8s.io/yaml"
 
-	"github.com/solo-io/autopilot/codegen/util"
+	"github.com/dds-sysu/autopilot/codegen/util"
 
-	v1 "github.com/solo-io/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
+	v1 "github.com/dds-sysu/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
 )
 
 //go:generate go run create_cr_yaml.go

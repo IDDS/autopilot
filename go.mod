@@ -1,4 +1,4 @@
-module github.com/solo-io/autopilot
+module github.com/dds-sysu/autopilot
 
 go 1.13
 

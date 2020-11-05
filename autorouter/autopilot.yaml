@@ -1,0 +1,18 @@
+apiVersion: examples.io/v1
+kind: AutoRoute
+operatorName: autoroute-operator
+phases:
+- description: AutoRoute has begun initializing
+  initial: true
+  name: Initializing
+  outputs:
+  - virtualservices
+- description: AutoRoute has begun processing
+  inputs:
+  - metrics
+  name: Processing
+  outputs:
+  - virtualservices
+- description: AutoRoute has finished
+  final: true
+  name: Finished

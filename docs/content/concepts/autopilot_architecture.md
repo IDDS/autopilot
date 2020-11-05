@@ -7,7 +7,7 @@ weight: 3
 The architecture of Autopilot Operators is determined by Autopilot and enforced in generated code. While generated code can be manually modified to customize this architecture, it is not currently recommended.
 
 To better understand the architecture of an Autopilot Operator, 
-let's use the [Example Canary Operator](https://github.com/solo-io/autopilot/tree/master/test/e2e) as an example.
+let's use the [Example Canary Operator](https://github.com/dds-sysu/autopilot/tree/master/test/e2e) as an example.
 
 Consider the following diagram of our Canary. The Canary Operator has the following architecture:
 
@@ -44,12 +44,12 @@ For reference, code for each component can be found in the following table:
 
 Component               | Source Code | Location
 ------------------------|-------------|-----
-Initializing Worker     | [initializing/worker.go](https://github.com/solo-io/autopilot/blob/master/test/e2e/canary/pkg/workers/initializing/worker.go) | User Project (user-defined)
-Waiting Worker          | [waiting/worker.go](https://github.com/solo-io/autopilot/blob/master/test/e2e/canary/pkg/workers/waiting/worker.go) | User Project (user-defined)
-Evaluating Worker       | [evaluating/worker.go](https://github.com/solo-io/autopilot/blob/master/test/e2e/canary/pkg/workers/evaluating/worker.go) | User Project (user-defined)
-Promoting Worker        | [promoting/worker.go](https://github.com/solo-io/autopilot/blob/master/test/e2e/canary/pkg/workers/promoting/worker.go) | User Project (user-defined)
-Rollback Worker         | [rollback/worker.go](https://github.com/solo-io/autopilot/blob/master/test/e2e/canary/pkg/workers/rollback/worker.go) | User Project (user-defined)
-Canary Scheduler        | [scheduler/sceduler.go](https://github.com/solo-io/autopilot/blob/master/test/e2e/canary/pkg/scheduler/scheduler.go) | User Project (generated)
+Initializing Worker     | [initializing/worker.go](https://github.com/dds-sysu/autopilot/blob/master/test/e2e/canary/pkg/workers/initializing/worker.go) | User Project (user-defined)
+Waiting Worker          | [waiting/worker.go](https://github.com/dds-sysu/autopilot/blob/master/test/e2e/canary/pkg/workers/waiting/worker.go) | User Project (user-defined)
+Evaluating Worker       | [evaluating/worker.go](https://github.com/dds-sysu/autopilot/blob/master/test/e2e/canary/pkg/workers/evaluating/worker.go) | User Project (user-defined)
+Promoting Worker        | [promoting/worker.go](https://github.com/dds-sysu/autopilot/blob/master/test/e2e/canary/pkg/workers/promoting/worker.go) | User Project (user-defined)
+Rollback Worker         | [rollback/worker.go](https://github.com/dds-sysu/autopilot/blob/master/test/e2e/canary/pkg/workers/rollback/worker.go) | User Project (user-defined)
+Canary Scheduler        | [scheduler/sceduler.go](https://github.com/dds-sysu/autopilot/blob/master/test/e2e/canary/pkg/scheduler/scheduler.go) | User Project (generated)
 Manager                 | [manager.go](https://github.com/kubernetes-sigs/controller-runtime/blob/master/pkg/manager/manager.go) | Imported from [controller-runtime](https://github.com/kubernetes-sigs/controller-runtime)
 K8s Client              | [client/interfaces.go](https://github.com/kubernetes-sigs/controller-runtime/blob/master/pkg/client/interfaces.go) | Imported from [controller-runtime](https://github.com/kubernetes-sigs/controller-runtime)
 
@@ -87,7 +87,7 @@ The main control loop of the application looks like the following:
    class m k8s;
 {{< /mermaid >}}
 
-The main control loop is started by Autopilot's [`run.Run`](https://github.com/solo-io/autopilot/blob/master/pkg/run/run.go).
+The main control loop is started by Autopilot's [`run.Run`](https://github.com/dds-sysu/autopilot/blob/master/pkg/run/run.go).
 
 Users are expected to modify and update their `spec.go` and `worker.go` files. When the `autopilot.yaml` file changes, 
 the project should be regenerated. `worker.go` files will not be overwritten by a regenerate, allowing users to iteratively regenerate the scheduler for their operator. Users can then update their workers as necessary.

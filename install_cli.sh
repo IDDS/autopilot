@@ -14,7 +14,7 @@ for AP_VERSION in $AP_VERSIONS; do
 
   tmp=$(mktemp -d /tmp/autopilot.XXXXXX)
   filename="ap-${OS}-amd64"
-  url="https://github.com/solo-io/autopilot/releases/download/${AP_VERSION}/${filename}"
+  url="https://github.com/dds-sysu/autopilot/releases/download/${AP_VERSION}/${filename}"
 
   if curl -f ${url} >/dev/null 2>&1; then
     echo "Attempting to download Autopilot CLI version ${AP_VERSION}"

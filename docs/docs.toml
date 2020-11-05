@@ -49,7 +49,7 @@ logoPath="/img/logo.png"
 [[menu.shortcuts]]
 name = "<i class='fa fa-github'></i> Github Repo"
 identifier = "ds"
-url = "https://github.com/solo-io/autopilot"
+url = "https://github.com/dds-sysu/autopilot"
 weight = 10
 
 # [[menu.shortcuts]]

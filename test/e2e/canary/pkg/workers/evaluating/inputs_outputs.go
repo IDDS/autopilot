@@ -3,8 +3,8 @@
 package evaluating
 
 import (
-	canarydeploymentmetrics "github.com/solo-io/autopilot/test/e2e/canary/pkg/metrics"
-	parameters "github.com/solo-io/autopilot/test/e2e/canary/pkg/parameters"
+	canarydeploymentmetrics "github.com/dds-sysu/autopilot/test/e2e/canary/pkg/metrics"
+	parameters "github.com/dds-sysu/autopilot/test/e2e/canary/pkg/parameters"
 )
 
 type Inputs struct {

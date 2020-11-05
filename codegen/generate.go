@@ -11,14 +11,14 @@ import (
 	"github.com/gobuffalo/packr"
 
 	"github.com/sirupsen/logrus"
-	v1 "github.com/solo-io/autopilot/api/v1"
-	"github.com/solo-io/autopilot/codegen/model"
-	"github.com/solo-io/autopilot/codegen/templates"
-	"github.com/solo-io/autopilot/codegen/templates/deploy"
-	"github.com/solo-io/autopilot/pkg/defaults"
+	v1 "github.com/dds-sysu/autopilot/api/v1"
+	"github.com/dds-sysu/autopilot/codegen/model"
+	"github.com/dds-sysu/autopilot/codegen/templates"
+	"github.com/dds-sysu/autopilot/codegen/templates/deploy"
+	"github.com/dds-sysu/autopilot/pkg/defaults"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 
-	"github.com/solo-io/autopilot/codegen/util"
+	"github.com/dds-sysu/autopilot/codegen/util"
 	"sigs.k8s.io/yaml"
 )
 

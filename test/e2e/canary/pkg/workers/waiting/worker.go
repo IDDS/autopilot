@@ -4,7 +4,7 @@ import (
 	"context"
 	"reflect"
 
-	"github.com/solo-io/autopilot/test/e2e/canary/pkg/weights"
+	"github.com/dds-sysu/autopilot/test/e2e/canary/pkg/weights"
 	"istio.io/client-go/pkg/apis/networking/v1alpha3"
 
 	appsv1 "k8s.io/api/apps/v1"
@@ -12,10 +12,10 @@ import (
 
 	"github.com/go-logr/logr"
 	"github.com/pkg/errors"
-	"github.com/solo-io/autopilot/pkg/ezkube"
-	"github.com/solo-io/autopilot/test/e2e/canary/pkg/parameters"
+	"github.com/dds-sysu/autopilot/pkg/ezkube"
+	"github.com/dds-sysu/autopilot/test/e2e/canary/pkg/parameters"
 
-	v1 "github.com/solo-io/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
+	v1 "github.com/dds-sysu/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

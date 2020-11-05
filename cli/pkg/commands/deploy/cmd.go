@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/solo-io/autopilot/cli/pkg/utils"
-	"github.com/solo-io/autopilot/codegen"
-	"github.com/solo-io/autopilot/codegen/util"
+	"github.com/dds-sysu/autopilot/cli/pkg/utils"
+	"github.com/dds-sysu/autopilot/codegen"
+	"github.com/dds-sysu/autopilot/codegen/util"
 
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

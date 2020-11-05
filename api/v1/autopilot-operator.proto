@@ -7,7 +7,7 @@ package autopilot;
 import "google/protobuf/duration.proto";
 import "google/protobuf/wrappers.proto";
 
-option go_package = "github.com/solo-io/autopilot/api/v1";
+option go_package = "github.com/dds-sysu/autopilot/api/v1";
 
 // The AutopilotOperator file is the bootstrap
 // Configuration file for the Operator.

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	v1 "github.com/solo-io/autopilot/api/v1"
+	v1 "github.com/dds-sysu/autopilot/api/v1"
 )
 
 func GetMetricsServerAddr(meshProvider v1.MeshProvider, controlPlaneNs string) string {

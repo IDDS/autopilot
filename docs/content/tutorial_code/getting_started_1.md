@@ -46,7 +46,7 @@ started.
 
 ## Install the Autopilot CLI
 
-Download the latest release of the Autopilot CLI from the GitHub releases page: https://github.com/solo-io/autopilot/releases
+Download the latest release of the Autopilot CLI from the GitHub releases page: https://github.com/dds-sysu/autopilot/releases
 
 or install from the terminal:
 

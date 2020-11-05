@@ -2,18 +2,18 @@ package evaluating
 
 import (
 	"context"
-	"github.com/solo-io/autopilot/test/e2e/canary/pkg/weights"
+	"github.com/dds-sysu/autopilot/test/e2e/canary/pkg/weights"
 	"strings"
 	"time"
 
 	"github.com/go-logr/logr"
 	"github.com/pkg/errors"
 	"github.com/prometheus/common/model"
-	"github.com/solo-io/autopilot/pkg/ezkube"
-	"github.com/solo-io/autopilot/test/e2e/canary/pkg/parameters"
+	"github.com/dds-sysu/autopilot/pkg/ezkube"
+	"github.com/dds-sysu/autopilot/test/e2e/canary/pkg/parameters"
 	"istio.io/client-go/pkg/apis/networking/v1alpha3"
 
-	v1 "github.com/solo-io/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
+	v1 "github.com/dds-sysu/autopilot/test/e2e/canary/pkg/apis/canarydeployments/v1"
 )
 
 // EDIT THIS FILE!  THIS IS SCAFFOLDING FOR YOU TO OWN!

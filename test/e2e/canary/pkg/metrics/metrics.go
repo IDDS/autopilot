@@ -5,7 +5,7 @@ package metrics
 import (
 	"context"
 
-	"github.com/solo-io/autopilot/pkg/metrics"
+	"github.com/dds-sysu/autopilot/pkg/metrics"
 )
 
 type CanaryDeploymentMetrics interface {

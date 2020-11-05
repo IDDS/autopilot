@@ -9,7 +9,7 @@ import (
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 
-	"github.com/solo-io/autopilot/pkg/run"
+	"github.com/dds-sysu/autopilot/pkg/run"
 )
 
 type (

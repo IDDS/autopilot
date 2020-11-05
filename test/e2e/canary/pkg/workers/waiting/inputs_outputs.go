@@ -3,7 +3,7 @@
 package waiting
 
 import (
-	parameters "github.com/solo-io/autopilot/test/e2e/canary/pkg/parameters"
+	parameters "github.com/dds-sysu/autopilot/test/e2e/canary/pkg/parameters"
 )
 
 type Inputs struct {
