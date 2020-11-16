@@ -73,6 +73,9 @@ build-cli: ap-linux-amd64 ap-darwin-amd64 ap-windows-amd64
 install-cli:
 	go build -o ${GOPATH}/bin/ap $(CLI_DIR)/cmd/main.go
 
+.PHONY: install-cli-1
+install-cli-1:
+	go build -o ~/.autopilot/bin/ap $(CLI_DIR)/cmd/main.go
 
 #----------------------------------------------------------------------------------
 # Test

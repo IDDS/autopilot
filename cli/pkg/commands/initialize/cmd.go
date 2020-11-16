@@ -145,7 +145,7 @@ func initGoMod(dir string) error {
 }
 
 func initialGoGet(dir string) error {
-	versionSuffix := ""
+	versionSuffix := "@master"
 	if autopilotversion.Version != autopilotversion.DevVersion {
 		versionSuffix = "@" + autopilotversion.Version
 	}
@@ -192,7 +192,7 @@ replace sigs.k8s.io/controller-tools => sigs.k8s.io/controller-tools v0.2.2-0.20
 require (
 	github.com/go-logr/logr v0.1.0
 	github.com/golang/protobuf v1.3.2
-	github.com/dds-sysu/autopilot v0.0.0-20191113003254-3821310e6e8c
+	// github.com/dds-sysu/autopilot v0.0.0-20191113003254-3821310e6e8c
 	go.tmthrgd.dev/gomodpriv v0.0.0-20191024122841-38d17a72f03c // indirect
 	istio.io/client-go v0.0.0-20191111192453-21751e6cf0fe
 	k8s.io/apimachinery v0.0.0
